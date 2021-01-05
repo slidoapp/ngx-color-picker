@@ -1,0 +1,16 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TextDirective, SliderDirective } from './helpers';
+import { ColorPickerComponent } from './color-picker.component';
+import { ColorPickerDirective } from './color-picker.directive';
+export class ColorPickerModule {
+}
+ColorPickerModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [CommonModule],
+                exports: [ColorPickerDirective],
+                declarations: [ColorPickerComponent, ColorPickerDirective, TextDirective, SliderDirective],
+                entryComponents: [ColorPickerComponent]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29sb3ItcGlja2VyLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIuLi8uLi8uLi9wcm9qZWN0cy9saWIvc3JjLyIsInNvdXJjZXMiOlsibGliL2NvbG9yLXBpY2tlci5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFFL0MsT0FBTyxFQUFFLGFBQWEsRUFBRSxlQUFlLEVBQUUsTUFBTSxXQUFXLENBQUM7QUFFM0QsT0FBTyxFQUFFLG9CQUFvQixFQUFFLE1BQU0sMEJBQTBCLENBQUM7QUFDaEUsT0FBTyxFQUFFLG9CQUFvQixFQUFFLE1BQU0sMEJBQTBCLENBQUM7QUFRaEUsTUFBTSxPQUFPLGlCQUFpQjs7O1lBTjdCLFFBQVEsU0FBQztnQkFDUixPQUFPLEVBQUUsQ0FBRSxZQUFZLENBQUU7Z0JBQ3pCLE9BQU8sRUFBRSxDQUFFLG9CQUFvQixDQUFFO2dCQUNqQyxZQUFZLEVBQUUsQ0FBRSxvQkFBb0IsRUFBRSxvQkFBb0IsRUFBRSxhQUFhLEVBQUUsZUFBZSxDQUFFO2dCQUM1RixlQUFlLEVBQUUsQ0FBRSxvQkFBb0IsQ0FBRTthQUMxQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuXG5pbXBvcnQgeyBUZXh0RGlyZWN0aXZlLCBTbGlkZXJEaXJlY3RpdmUgfSBmcm9tICcuL2hlbHBlcnMnO1xuXG5pbXBvcnQgeyBDb2xvclBpY2tlckNvbXBvbmVudCB9IGZyb20gJy4vY29sb3ItcGlja2VyLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBDb2xvclBpY2tlckRpcmVjdGl2ZSB9IGZyb20gJy4vY29sb3ItcGlja2VyLmRpcmVjdGl2ZSc7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFsgQ29tbW9uTW9kdWxlIF0sXG4gIGV4cG9ydHM6IFsgQ29sb3JQaWNrZXJEaXJlY3RpdmUgXSxcbiAgZGVjbGFyYXRpb25zOiBbIENvbG9yUGlja2VyQ29tcG9uZW50LCBDb2xvclBpY2tlckRpcmVjdGl2ZSwgVGV4dERpcmVjdGl2ZSwgU2xpZGVyRGlyZWN0aXZlIF0sXG4gIGVudHJ5Q29tcG9uZW50czogWyBDb2xvclBpY2tlckNvbXBvbmVudCBdXG59KVxuZXhwb3J0IGNsYXNzIENvbG9yUGlja2VyTW9kdWxlIHt9XG4iXX0=
